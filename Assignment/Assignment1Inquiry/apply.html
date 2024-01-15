@@ -1,0 +1,142 @@
+<!Doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="charset" content="UTF-8">
+		<meta name="Description" content="Lab3">
+		<meta name="keywords" content="Assigment1">
+		<meta name="author" content="Thuan Khang">
+        <link href= "styles/style.css" rel="stylesheet" />
+		<title>Job application Form</title>
+	</head>
+	<body class="Bd">
+        <nav class="navbarK">
+            <a href="index.html"><i class=""></i> Home </a> 
+            <a href="jobs.html"><i class=""></i>Jobs</a>
+            <a href="apply.html"><i class=""></i>Apply</a>
+            <a href="about.html"><i class=""></i>About </a>      
+            <a href="enhancements.html"><i class=""></i>Enhancements </a>  
+       </nav>
+          </header>
+        <div class="containerK">
+        <h1>Job Application Form</h1>
+		<h2> Please Fill Out the Form Below to Submit Your Your Job Application! </h2>
+            <form id="survey" method="post" action="https://mercury.swin.edu.au/it000000/formtest.php">
+                    <p><label for="jrn">Job reference number:</label>
+                    <input class="btn2K"type="text" name="Job reference number" id="sid"  maxlength="5"></p><br>
+                    <p><label for="fs">First name:</label>
+                    <input class="btn2K"type="text" name="First Name" id="sgv" required pattern="^[a-zA-Z]+$" maxlength="20"> &nbsp; &nbsp; &nbsp;
+                    <label for="ls">Last name:</label>
+                    <input class="btn2K"type="text" name="Last Name" id="sfn"  pattern="^[a-zA-Z]+$" required maxlength="20"></p><br>
+                    <label for="dob">Date of birth: </label>
+				<input class="btn2"type="text" name="Date of birth" id="date" pattern="\d{1,2}\/\d{1,2}\/\d{4}" placeholder="dd/mm/yyyy"><br>
+                <fieldset>
+                    <legend>Gender:</legend>
+                    <p>
+                        <label for="gen">Male</label>
+                        <input  type="radio" name="Gender" value="Male" >
+                        <label for="gen">Female</label>
+                        <input  type="radio" name="Gender" value="Female" >   
+                </fieldset>
+                <p><label for="add">Street Address: </label>
+                    <input class="btn2K"type="text" name="Street Address" id="sid"  maxlength="40"> &nbsp; &nbsp; &nbsp;
+                    <label for="sub">Suburb/town:</label>
+                        <input class="btn2K"type="text" name="Suburb/town" id="sid"  maxlength="40"></p>
+                        <p>
+					<label for="State">State:</label>
+					<select name="State" id="tutor" required title="Please select your state">
+						<option value="VIC">VIC</option>
+						<option value="NSW">NSW</option>
+						<option value="QLD">QLD</option>
+                        <option value="NT">NT</option>
+                        <option value="WA">WA</option>
+                        <option value="SA">SA</option>
+                        <option value="TAS">TAS</option>
+                        <option value="ACT">ACT</option>
+					</select> &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+              
+                    <label for="cd">Postcode:</label>
+                        <input class="btn2K" type="text" name="Postcode" id="sid"  title=" Choose number from 0 to 9"  maxlength="4">
+                        <p><label for="ea">Email Address:</label>
+                            <input class="btn2K"type="email" name="Email Address " id="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" placeholder="Enter email" required>&nbsp; &nbsp; &nbsp;
+                            <label for="pn">Phone number: 
+                            <input class="btn2K"type="tel" name="Phone number"
+                            placeholder="############"
+                            required pattern="[0-9]{8,12}" maxlength="12"/>
+                            </label></p>
+                    </p>
+                    <p>
+                        <label for="skill"> Skills:  </label>
+                        <br> 
+                        <label for="html">HTML</label>
+                        <input type="checkbox" name="Skills[]" value="HTML" id="html" >
+                        <br>
+                        <label for="css">CSS</label>
+                        <input type="checkbox" name="Skills[]" value="CSS" id="css">
+                        <br>
+                        <label for="js">JavaScript</label>
+                        <input type="checkbox" name="Skills[]" value="JavaScript" id="js">
+                        <br>
+                        <label for="php">PHP</label>
+                        <input type="checkbox" name="Skills[]" value="PHP" id="php">
+                        <br>
+                        <label for="mysql">Other skills: </label>
+                        <input type="checkbox" name="Skills[]" value="Other skills" id="mysql">
+				<br>
+				<textarea name="Other skills" placeholder="Write your other skills here..." rows="5" cols="50" id="des"></textarea>
+                <br>
+                <input class = "btn3K" type="submit" value="Apply">
+			<input class = "btn3K" type="reset" value="Reset ">
+        </form>
+    </div>
+        <img class="icon1K" src="images/pngwing.com.png" alt="Cinque Terre" width="100" height="100">
+        <img class="icon2K" src="images/ISO_C++_Logo.svg.png" alt="Cinque Terre" width="100" height="100">
+        <img class="icon3K" src="images/python.png" alt="Cinque Terre" width="100" height="100">
+        <img class="icon4K" src="images/Visual-Studio-logo.png" alt="Cinque Terre" width="130" height="80">
+        <img class="icon5K" src="images/javascript-39395.png" alt="Cinque Terre" width="150" height="80">
+        <img class="icon6K" src="images/html.png" alt="Cinque Terre" width="100" height="100">
+        <img class="icon7K" src="images/robot.png" alt="Cinque Terre" width="100" height="100">
+<br>
+<br> 
+<br>
+<br>
+<br>
+<br> 
+
+    <footer>
+        <div class="footer-body">
+          <div class="footer-content">
+            <h3>Quick Action</h3>
+            <ul class="footer-ul">
+              <li class="footer-li"><a href="index.html">Home</a></li>
+              <li class="footer-li"><a href="jobs.html">Job Descriptions</a></li>
+              <li class="footer-li"><a href="apply.html">Application</a></li>
+              <li class="footer-li"><a href="about.html">About us</a></li>
+              <li class="footer-li"><a href="enhancements.html">Enhancement</a></li>
+            </ul>
+          </div>
+          <div class="footer-content">
+            <h3>Members</h3>
+            <ul class="footer-ul">
+              <li class="footer-li"><a href="about.html#NNam">Nhat Nam</a></li>
+              <li class="footer-li"><a href="about.html#BTung">Ba Tung</a></li>
+              <li class="footer-li"><a href="about.html#TKhang">Thuan Khang</a></li>
+              <li class="footer-li"><a href="about.html#NQuyen">Ngoc Quyen</a></li>
+              <li class="footer-li"><a href="about.html#TAnh">Tuan Anh</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <div class="footer-bottom">
+        <p>
+          Copyright &copy; 2023 All Right Reserved <br>
+          Swinburne Unversity of Technology - COS10026 - Computer Technology
+          Inquiry Project
+        </p>
+      </div>
+      
+</body>
+</html>
+
+
+    
